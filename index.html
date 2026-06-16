@@ -610,7 +610,7 @@ footer {
       <div class="hero-actions">
         <a href="#projects" class="btn-primary">See My Work</a>
         <a href="#contact" class="btn-outline">Get In Touch</a>
-        <a href="Taniya_Vishwakarma_Resume.pdf" class="btn-resume" id="resume-btn" download="Taniya_Vishwakarma_Resume.pdf">
+        <a href="Taniya_Vishwakarma_Resume.pdf" class="btn-resume" id="resume-btn" download>
           ⬇ Download Resume
         </a>
       </div>
@@ -850,7 +850,40 @@ footer {
             </a>
           </div>
         </div>
+        <!-- SafeStep Card -->
+    <div class="project-card reveal" style="margin-top:2rem;" data-tags="flutter">
+      <div class="project-header">
+        <div>
+          <span class="project-icon-lg">🛡️</span>
+          <div class="project-title">SafeStep</div>
+        </div>
+        <span class="project-role-badge">Flutter Developer</span>
       </div>
+      <div class="project-body">
+        <p class="project-desc-text">SafeStep is a women safety mobile application built with Flutter. Designed to provide quick access to emergency features, safety tools, and location-based assistance — so every step feels safer.</p>
+        <ul class="project-features">
+          <li>Quick access to emergency SOS features</li>
+          <li>Location-based safety assistance during travel</li>
+          <li>Built-in safety tools for daily activities</li>
+          <li>Fast, intuitive UI designed for high-stress moments</li>
+        </ul>
+        <div class="project-footer">
+          <div class="tech-stack">
+            <span class="tech-badge">Flutter</span>
+            <span class="tech-badge">Dart</span>
+          </div>
+          <a href="https://github.com/taniyavishwakarma2429635-blip/safestep" target="_blank" class="github-link">
+            🐙 View on GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- closes #projects-inner -->
+</div>   <!-- closes #projects -->
+
+<hr class="divider"/>   </div>
+
     </div>
 
   </div>
@@ -1093,6 +1126,7 @@ const btt = document.getElementById('back-to-top');
 window.addEventListener('scroll', () => {
   btt.classList.toggle('visible', scrollY > 400);
 });
+
 </script>
 </body>
 </html>
